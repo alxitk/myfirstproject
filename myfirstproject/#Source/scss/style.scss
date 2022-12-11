@@ -1,0 +1,54 @@
+@import url(../css/nullstyle.css);
+
+.wraper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main{
+	flex: 1 1 auto;
+}
+
+
+.header {
+	background: url('../img/header-shape.png') red 50%/cover no-repeat;
+	
+	&__container {
+		max-width: 1310px;
+		margin: 0 auto;
+		display: flex;
+		min-height: 196px;
+		align-items: center;
+	}
+	&__logo {
+	}
+	&__menu {
+		flex: 1 1 auto;
+		display: flex;
+		justify-content: flex-end;
+	}
+	&__button {
+	}
+}
+
+.menu {
+
+	&__list {
+	display: flex;
+	}
+	&__item {
+	}
+	&__link {
+	}
+}
+
+.txt {
+}
+.button {
+}
+.fa-solid {
+}
+.fa-magnifying-glass {
+}
